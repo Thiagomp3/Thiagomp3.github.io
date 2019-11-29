@@ -1,0 +1,353 @@
+.pagina {
+	background-color: lightgoldenrodyellow;
+	max-width: 100%
+}
+.div_bar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 2rem 2rem 1rem;
+	justify-content: space-around;
+
+}
+
+.imagem_bares {
+  	height: 5rem;
+ 	width: 5rem;
+ }
+
+.titulo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+
+}
+.logo {
+	display: flex;
+	justify-content: center;
+  	align-items:center;
+  	height: 5rem;
+ 	width: 5rem;
+}
+.titulo_bar {
+
+	 font-family: 'Patua One', cursive;
+	 font-size: 1.5rem;
+
+	 color:black;
+	 
+}
+.header {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	padding-top: 1rem;
+	align-content: center;
+
+	padding-bottom: 1rem;
+
+}
+
+.header a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    font-size: 3rem;
+    border-radius: 0.8rem;
+    border-radius: 0.8rem;
+
+}
+.subtitulo {
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 2rem 2rem 2rem ;
+	padding-bottom: 0rem;
+}
+.filtro {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: 2rem;
+	border-style: solid;
+	border-width: 0.2rem;
+	border-radius: 2rem;
+
+}
+.filtro a{
+	float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+
+}
+
+.corpo {
+	
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
+}
+.cada_bar {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.cada_bar > a {
+	text-decoration: none;
+}
+
+.nome_bar {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 0.9rem;
+	padding-top: 0.3rem;
+	text-align: center;
+	color: black;
+}
+.imagem_principal {
+	height: 5rem;
+ 	width: 5rem;
+	margin: 1rem;
+	padding-top: 3rem;
+
+}
+.estrutura_descricao_bares {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+}
+.estrutura_imagem_bares {
+	display: grid;
+	grid-template-rows: 0.1fr 0.3fr;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.imagem_grande_bares {
+	width: 100%;
+	
+}
+
+.endereco {
+	font-family: 'Roboto', sans-serif;
+	
+}
+.descricao {
+	align-content: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	
+}
+
+.especificacoes{
+	margin: 1rem;
+	align-content: center;
+	justify-content: center;
+	font-family: 'Patua One', cursive;
+}
+
+.titulo_filtro {
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
+	padding: 2rem 2rem 2rem ;
+	padding-bottom: 0rem;
+	text-align: center;
+
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.range-labels {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.7rem;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+  .active {
+    color: #37adbf;
+  }
+  
+  .selected::before {
+    background: #37adbf;
+  }
+  
+  .active.selected::before {
+    display: none;
+  }
+
+
+.filtro_regiao {
+	margin-top: 1rem;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2rem;
+	
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-content: center;
+  font-size: 1rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.botao {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	
+}
+.voltar {
+	font-family: 'Patua One', cursive;
+	font-size: 1.5rem;
+	margin: 1rem;
+
+}
+
+.voltar > a{
+	text-decoration: none;
+	color: green
+
+}
+
+.concluir {
+	font-family: 'Patua One', cursive;
+	font-size: 1.5rem;
+	margin-left: 11rem;
+	margin-right: 7rem;
+	margin-top: 1rem;
+	
+	
+}
+
+.concluir > a{
+	text-decoration: none;
+	color: green
+
+}
+
+.filtros_ativos { 
+	font-size: 1rem;
+	margin-left: 2rem;
+	font-family: 'Patua One', cursive;
+}	
+
+.bar1 {
+	display: inline-flex;
+}
+
+.img_filtrada{
+	margin-top: 2rem;
+	width: 35%;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.escrita{
+	font-size: 1rem;
+	margin-top: 2.5rem;
+	margin-left: 3rem;
+}
+
+.escrita > a {
+	text-decoration: none;
+	color: black;
+}
